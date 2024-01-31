@@ -1,0 +1,523 @@
+
+/* css for index.html*/
+/* selecting all the tag & elements */
+/* *{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-transform: capitalize;
+} */
+/* selecting body */
+body{
+    background-color: rgb(86, 152, 228);
+}
+
+/* selecting main container */
+main{
+    margin: 2rem;
+}
+footer{
+    border: 2px;
+    background-color: rgb(5, 107, 224);
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+main header{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+    padding-top: 0;
+    
+    
+    color: rgba(232, 241, 241, 0.945);
+}
+main header h1{
+    color: black;
+    shape-margin: 1rem;
+    shape-margin: 1rem;
+    
+}
+main header q{
+    font-size: 2.2rem;
+    display: inline-block;
+    padding-top: 4px;
+}
+
+/* selecting navbar */
+.navbar{
+    
+    width: 100%;
+    height: auto;
+    
+    background-color: rgb(5, 107, 224);
+    border-bottom: 2px solid rgba(243, 147, 2, 0.74);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    
+    list-style: none;
+
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+    padding-top: 1rem;
+
+}
+.navbar ul li{
+    /* padding-right: 0.5 rem; */
+    margin-right: 1rem;
+   
+    /* padding : 0.5rem; */
+
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    transition: 0.7s;
+}
+
+/* css for mouseover on a*/
+.navbar a:hover{
+    
+    display: block;
+    color: rgb(14, 91, 233);
+    background-color: rgba(27, 26, 25, 0.445);
+    padding-right: 0.4rem;
+}
+.navbar a:visited{
+    /* color: rgba(46, 10, 252, 0.719); */
+}
+.root{
+    width: 100%;
+    height: 100%;
+    display: flow-root;
+    overflow: auto;
+}
+
+/* selecting biography container */
+Biography{
+    height: 100%;
+    width: 100%;
+
+}
+#Biography h3{
+    padding-left: 30%;
+    background-color: rgba(248, 163, 51, 0.863);
+}
+.bio-img{
+    width: 35%;
+    height: 35%;
+    padding: 0.6rem;
+
+    
+} 
+.bio-img img{
+    width: 45%;
+    height: 45%;
+    padding: 0.6rem;
+
+}
+
+/* second class */
+.right{
+    float: right;
+    margin-left: 20px;
+}
+section h3{
+    margin-top: 0.8rem;
+    font-size: 1.6rem;
+}
+section p{
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    text-align: justify;
+    line-height: 1.4rem;
+    
+    
+}
+section a{
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    
+}
+
+/* selecting achivement container */
+#Achievements h3{
+    padding-left: 70%;
+    background-color: rgba(248, 163, 51, 0.863);
+}
+.Achiev-img{
+    width: 100%;
+    height: auto;
+    padding: 0.6rem;
+
+}
+.Achiev-img img{
+    width: 75%;
+    height: 35%;
+    padding: 0.6rem;
+    
+}
+.left{
+    float: left;
+    width: 40%;
+   
+}
+.onclick{
+    background-color: rgb(25, 25, 161);
+    color: whitesmoke;
+    padding: 0.5rem;
+    border: 3px solid black;
+    border-radius: 0.3rem;
+}
+
+/* selecting gallary container */
+.Gallery h3{
+    background-color: rgba(248, 163, 51, 0.863);
+    text-align: center;
+}
+.gallary-img{
+    display: flex;
+    margin-left: 30%;
+    
+}
+.gallary-img img{
+    width: 30vw;
+    height: 50vh;
+    margin-top: 0.7rem;
+    padding: 0.6rem;
+    border: 2px double azure;
+    border-radius: 50%;
+
+}
+.gallary-img img:hover{
+
+    background-color: rgba(29, 28, 28, 0.527);
+    
+}
+
+/* selecting quotes container */
+.Quotes h3{
+    background-color: rgba(248, 163, 51, 0.863);
+    text-align: center;
+    
+
+}
+#index-ul{
+    display: flex;
+}
+/* ul{
+    display: flex;
+    
+  
+} */
+.quotes ul li{
+    list-style: none;
+   
+    text-align: center;
+    justify-content: center;
+    padding: 2rem 0rem 2rem 2rem;
+    
+    
+
+}
+.quotes ul li:hover{
+    cursor: pointer;
+    background-color: rgb(161, 215, 240);
+   
+    padding-left: 1rem;
+}
+
+/* style 1 .css */
+.biography{
+    margin: 2rem;
+
+   
+    justify-items: center;
+    
+    
+    
+    
+    background-color: bisque;
+}
+#biography-h1{
+    text-align: center;
+
+}
+#biography-span{
+    background-color: black;
+    color: rgb(245, 230, 170);
+
+}
+.biography-h3{
+    text-align: center;
+    border-bottom: 3px  dotted rgba(250, 177, 82, 0.637);
+
+}
+.biography-p{
+   text-align: justify;
+    padding-top: 1rem;
+    word-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+/* selecting button */
+.biography-btn{
+    margin-left: 45%;
+    text-align: center;
+    align-items: center;
+}
+.biography-btn a{
+    align-items: center;
+}
+
+/* CONTACT US FORM */
+/* css for form */
+/* .contact-us{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,184,223,1) 0%, rgba(66,167,217,1) 23%, rgba(4,120,144,1) 89%);
+
+} */
+#contact-form{
+    width: 400px;
+    margin: 10vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.contact-h1{
+    color: rgb(5, 107, 224);
+}
+.contact-btn{
+    background-color: rgb(5, 107, 224) ;
+    color: white;
+    border: 1px solid  rgb(5, 107, 224);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px 0px ;
+    font-size: 20px;
+    width: 100%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px ;
+
+
+}
+.input-group input,textarea,select{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid  rgb(45, 136, 240) ;
+
+
+}
+.input-group select:focus{
+    outline: 0;
+
+}
+.input-group textarea:focus{
+    outline: 0;
+
+}
+.input-group input:focus{
+    outline: 0;
+
+}
+.input-group .error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+
+
+}
+.input-group.success input{
+    border-color: rgb(3, 173, 3);
+}
+
+.input-group.error input{
+    border-color: rgb(248, 4, 4);
+}
+
+
+
+
+/* style2.css 
+style for achievements */
+.Achievements{
+    margin: 2rem;
+    background-color: bisque;
+    border-color: black;
+   
+
+}
+.Achievements-h1{
+    font-size: 4rem;
+    text-align: center;
+    border: 3px solid darkgrey;
+}
+
+.Achievements-tbl{
+    
+    border-color: black;
+    border-radius: 0.5rem;
+
+}
+.Achievements-tbl caption{
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 3px;
+}
+.Achievements-tbl th,td{
+
+    text-align: center;
+    padding: 2rem;
+}
+.Achievements-h2{
+    text-align: center;
+    padding-top: 1.4rem;
+}
+.Achievements-ul li{
+    list-style: none;
+    text-align: center;
+    line-height: 1.7rem;
+
+}
+.Achievements-h5{
+    text-align: center;
+}
+.Achievements-btn{
+    
+    text-align: center;
+    align-items: center;
+}
+.Achievements-btn a{
+    
+    align-items: center;
+
+}
+
+
+/* style 3 
+quotes.style */
+.Quotes{
+    background-color: bisque;
+    border:0.5px dashed goldenrod;
+}
+.Quotes-h1{
+    text-align: center;
+}
+
+
+.Quotes-ol li{
+    list-style: none;
+    padding-top: 1rem;
+    padding-left: 30%;
+    padding-bottom: 0.6rem;
+    border: 3px solid white;
+}
+.Quotes-ol li:hover{
+    cursor: pointer;
+    background-color: azure;
+}
+.Quotes-btn{
+    margin-left: 45%;
+    text-align: center;
+    align-items: center;
+}
+.Quotes-btn a{
+    align-items: center;
+}
+
+
+/* style 4 
+*/
+/* css for gallery */
+
+.gallary-h2{
+    text-align: center;
+}
+
+.gal-header{
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+
+}
+.profile-div{
+    width: 100%;
+    height: auto;
+    background-color: palevioletred;
+}
+.profile-img{
+    width: 35%;
+    height: auto;
+   display: flex;
+    justify-content: center;
+   
+
+
+}
+.profile-img img{
+    
+    border: 4px double black;
+    border-radius: 45%;
+    
+}
+.profile-img span{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.profile-img span p{
+    width: 100%;
+    justify-content: center;
+    margin-left: 50%
+
+}
+
+.Gallery h3{
+
+    border-top: 3px solid black;
+    background-color: rgba(248, 163, 51, 0.863);
+    text-align: center;
+}
+.gallarys-img{
+    border: 2px dotted whitesmoke;
+    background-color: salmon;
+    display: flex;
+    
+}
+.gallarys-img img{
+    width: 30vw;
+    height: 50vh;
+    margin-top: 0.7rem;
+    padding: 0.6rem;
+
+}
+.gallarys-img img:hover{
+
+    background-color: rgba(29, 28, 28, 0.527);
+    
+}
+/* selecting button */
+.gallary-btn{
+    margin-top: 2rem;
+    margin-left: 45%;
+    text-align: center;
+    align-items: center;
+
+}
+.gallary-btn{
+    align-items: center;
+}
