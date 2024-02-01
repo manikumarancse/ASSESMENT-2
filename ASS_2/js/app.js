@@ -6,7 +6,17 @@ const phone = document.querySelector('#phone');
 const message = document.querySelector('#message')
 const result = document.getElementById('result')
 const Result = "THANK YOU"
+// const totop = document.querySelector(".to-top");
 arr=["chennai", "mumbai","delhi","kolkata","pune","Ahmedabad", "Jaipur"]
+
+// window.addEventListener("scroll", () =>{
+//     if(window.scrollY > 250){
+//         console.log("error")
+//         totop.style.display = "block" ;
+//     }else{
+//         totop.style.display = "none" ;
+//     }
+// })
 
 form.addEventListener('submit',(e)=>{
     // e.preventDefault();
