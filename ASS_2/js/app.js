@@ -27,6 +27,7 @@ form.addEventListener('submit',(e)=>{
         
         result.innerHTML = Result;
         alert("thank you")
+        e.preventDefault()
 
     }
 

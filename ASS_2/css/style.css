@@ -17,11 +17,13 @@ main{
     margin: 2rem;
 }
 footer{
+    margin-top: 2rem;
+   
     border: 2px;
     background-color: rgb(5, 107, 224);
     bottom: 0;
     width: 100%;
-    height: 10%;
+    height: 15%;
 }
 
 /* TO top button */
@@ -93,6 +95,17 @@ main header q{
     top: 0;
 }
 
+#q{
+    padding-right: 1rem;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+.index-ul{
+    padding-top: 1rem;
+}
 .navbar ul{
     
     list-style: none;
@@ -100,7 +113,7 @@ main header q{
     display: flex;
     justify-content: end;
     padding-right: 2rem;
-    padding-top: 1rem;
+    
 
 }
 .navbar ul li{
@@ -259,6 +272,7 @@ section a{
     text-align: center;
     justify-content: center;
     padding: 2rem 0rem 2rem 2rem;
+    margin-right: 3rem;
     
     
 
@@ -268,49 +282,6 @@ section a{
     background-color: rgb(161, 215, 240);
    
     padding-left: 1rem;
-}
-
-/* style 1 .css */
-.biography{
-    margin: 2rem;
-
-   
-    justify-items: center;
-    
-    
-    
-    
-    background-color: bisque;
-}
-#biography-h1{
-    text-align: center;
-
-}
-#biography-span{
-    background-color: black;
-    color: rgb(245, 230, 170);
-
-}
-.biography-h3{
-    text-align: center;
-    border-bottom: 3px  dotted rgba(250, 177, 82, 0.637);
-
-}
-.biography-p{
-   text-align: justify;
-    padding-top: 1rem;
-    word-spacing: 1px;
-    line-height: 1.5rem;
-}
-
-/* selecting button */
-.biography-btn{
-    margin-left: 45%;
-    text-align: center;
-    align-items: center;
-}
-.biography-btn a{
-    align-items: center;
 }
 
 /* CONTACT US FORM */
@@ -329,6 +300,10 @@ section a{
 
 }
 .contact-h1{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px black;
     color: rgb(5, 107, 224);
 }
 .contact-btn{
@@ -384,14 +359,64 @@ section a{
 .input-group.error input{
     border-color: rgb(248, 4, 4);
 }
-
-
-
-
-/* style2.css 
-style for achievements */
-.Achievements{
+#result{
+    color: rgb(4, 76, 109);
+    background-color: rgb(87, 235, 107);
+    text-align: center;
+    font-size: 30px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*---------------------------------- style 1 .css/ BIOGRAPHY CSS--------------------------- */
+.biography{
     margin: 2rem;
+    margin-top: 5rem;
+
+   
+    justify-items: center;
+    
+    
+    
+    
+    background-color: bisque;
+}
+#biography-h1{
+    text-align: center;
+
+}
+#biography-span{
+    background-color: black;
+    color: rgb(245, 230, 170);
+
+}
+.biography-h3{
+    text-align: center;
+    border-bottom: 3px  dotted rgba(250, 177, 82, 0.637);
+
+}
+.biography-p{
+   text-align: justify;
+    padding-top: 1rem;
+    word-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+/* selecting button */
+.biography-btn{
+    margin-left: 45%;
+    text-align: center;
+    align-items: center;
+}
+.biography-btn a{
+    align-items: center;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------style2.css /style for achievements---------------------------------------------------------------- */
+.Achievements{
+    
+    margin: 2rem;
+    margin-top: 5rem;
     background-color: bisque;
     border-color: black;
    
@@ -433,7 +458,7 @@ style for achievements */
     text-align: center;
 }
 .Achievements-btn{
-    
+    /* margin-top: 10rem; */
     text-align: center;
     align-items: center;
 }
@@ -443,15 +468,17 @@ style for achievements */
 
 }
 
-
-/* style 3 
-quotes.style */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*---------------------------------------------------------------- style 3 /quotes.style ------------------------------------------------------------------*/
 .Quotes{
+    margin-top: 5rem;
     background-color: bisque;
     border:0.5px dashed goldenrod;
 }
 .Quotes-h1{
     text-align: center;
+    color: white;
+    background-color: rgb(38, 94, 247);
 }
 
 
@@ -475,86 +502,63 @@ quotes.style */
     align-items: center;
 }
 
-
-/* style 4 
-*/
-/* css for gallery */
-
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*------------------------------------------------------------------- style 4 / css for gallery-------------------------------------------------------------------------------------- */
+.gal-cont{
+    margin-top: 5rem;
+}
 .gallary-h2{
     text-align: center;
+    background-color:goldenrod;
 }
 
-.gal-header{
-    width: 100%;
-    height: 40vh;
-    background-color: white;
 
-}
-.profile-div{
-    width: 100%;
-    height: auto;
-    background-color: palevioletred;
-}
-.profile-img{
-    width: 35%;
-    height: auto;
-   display: flex;
-    justify-content: center;
-   
-
-
-}
-.profile-img img{
-    
-    border: 4px double black;
-    border-radius: 45%;
-    
-}
-.profile-img span{
-    display: flex;
-    align-items: center;
-    
-    
-}
-.profile-img span p{
-    width: 100%;
-    justify-content: center;
-    margin-left: 50%
-
-}
-
-.Gallery h3{
-
-    border-top: 3px solid black;
-    background-color: rgba(248, 163, 51, 0.863);
-    text-align: center;
-}
-.gallarys-img{
-    border: 2px dotted whitesmoke;
-    background-color: salmon;
-    display: flex;
-    
-}
-.gallarys-img img{
-    width: 30vw;
-    height: 50vh;
-    margin-top: 0.7rem;
-    padding: 0.6rem;
-
-}
-.gallarys-img img:hover{
-
-    background-color: rgba(29, 28, 28, 0.527);
-    
-}
 /* selecting button */
 .gallary-btn{
+    
     margin-top: 2rem;
     margin-left: 45%;
+    display: flex;
     text-align: center;
     align-items: center;
 
 }
-.gallary-btn{
+.gallary-btn a{
+  
+}
+
+.container-gall{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 50px, 8%;
+}
+.gallary{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px ;
+}
+.gallary img{
+    width: 100%;
+    height: fit-content;
+    transition: all .5s;
+    /* width: 100%;
+    height: 50vh;
+    object-fit: cover; */
+
+}
+.gallary img:hover{
+    /* width: 100%;
+    height: fit-content; */
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    
+    /* object-fit: fill; */
+    border: 10px solid rgb(240, 16, 16);
+    
+    background-color: black;
+
 }
