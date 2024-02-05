@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: blanchedalmond;
+}
+/* css for navbar  */
+nav{
+    background-color: darksalmon;
+  
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* justify-content: space-evenly; */
+    
+    color: darkslateblue;
+}
+nav div{
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 0.7rem;
+
+}
+
+nav a{
+    font-size: larger;
+  
+   }
+/* navbar mouse over */
+nav a:hover{
+    color: aliceblue;
+}
+
+
+/* adding flex to complete website && coloum  */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+ } 
+
+ .header{
+    flex: 1;
+}
+.navbar{
+    flex: 1;
+}
+.container-1{
+    flex: 2;
+    
+    
+}
+.footer{
+    flex: 1;
+    
+}
+ 
+ 
+/* media queery
+ */
+@media all and (max-width: 481px ){
+    .navbar{
+        width: 100%;
+    }
+    .navbar div{
+        width: 100%;
+    }
+    .navbar div a{
+        font-size: small;
+        width: 100%;
+    }
+
+    .header{
+        order: 1;
+    }
+   .navbar{
+    order: 3;
+   }
+  .container-1{
+    order: 2;
+  }
+  .footer{
+    order: 4;
+  }
+  nav{
+    background-color: darksalmon;
+  }
+  .container-1{
+    display: flex;
+    flex-direction: column;
+}
+.para1{
+    max-width: 480px;
+}
+.para2{
+    max-width: 480px;
+}
+.para3{
+    max-width: 480px;
+}
+
+}
+/* -----------------------------------------------------------------media queryy endss ------------------------------------------ */
+.container-1{
+    display: flex;
+}
+
+
+/* css for All p tags  */
+p{
+    
+    padding: 10px;
+    text-align: justify;
+
+}
+/* css for section1  */
+.para1{
+    width: 100%;
+    
+    background-color: aquamarine;
+    flex: 1;
+    
+   
+}
+/* css for section2  */
+.para2{
+    width: 100%;
+    
+    background-color: bisque;
+    flex: 1;
+    
+}
+/* css for section3  */
+.para3{
+    width: 100%;
+    
+    background-color: chocolate;
+    flex: 1;
+}
+/* css for all images  */
+img{
+    width: 100%;
+    height: auto;
+}
+/* css for footer  */
+.footer{
+
+    align-self: center;
+   
+    
+}
+.footer p{
+    border: 2px solid whitesmoke;
+    background-color: cadetblue;
+
+}
+/* css for header  */
+.header h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: honeydew;
+    text-shadow: 2px 2px 8px #3d3434;
+    text-align: center;
+
+}
+/* css for All button  */
+button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 148, 148);
+    color: white;
+  
+    padding:0.7rem
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+/* CSS for flexbox-home-2.html */
+
+.para-1{
+    width: 100%;
+    
+    background-color: aquamarine;
+    flex: 1;
+}
+.para-2{
+    width: 100%;
+    
+    background-color: bisque;
+    flex: 1;
+}
+.para-3{
+    width: 100%;
+    
+    background-color: chocolate;
+    flex: 2;
+}
