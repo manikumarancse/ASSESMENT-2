@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- adding css link from boxicon website -->
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>QUIZ APP</title>
+</head>
+<body>
+    <!-- creating a div for bg image -->
+    <div class="top-section">
+        <!-- creating a div for the content over bg image  -->
+        <div class="top-content">
+            <h1>Welcome To The Quizz </h1>
+            <p>There are a total 8 question based on Ratan Tata. For evevry question there will be an 4 option .Chose the right one to get good score. </p>
+  <p></p>      
+            <p> The score you achieved will be displayed at the end. Before starting Kindly Refer about Ratan Tata  to score good.</p>
+            <!-- adding link for reference -->
+            <h5>Refer : <a class="ref" href="https://en.wikipedia.org/wiki/Ratan_Tata">RATAN TATA</a></h5>
+            <p class="btn-des">CLICK THE ARROW TO START </p>
+            <a class="icon" href="#app"><i class='bx bxs-chevrons-down bx-flip-horizontal bx-flashing' style='color:#eae0e0' ></i></a>
+        </div>
+    </div>
+    <!-- quiz part starts -->
+    <div class="q-container" id="bgclr" >
+        <!-- div for the quiz part  -->
+    <div class="app" id="app">
+        <img src="images/game.png"  class="imgs" alt="">
+        <h1> QUIZ </h1>
+        <div class="quiz">
+            <!-- to display question -->
+            <h2 id="question">Question goes here</h2>
+            <!-- div to display options  -->
+            <div id="answer-button">
+                <button class="btn">Answer-1</button>
+                <button class="btn">Answer-2</button>
+                <button class="btn">Answer-3</button>
+                <button class="btn">Answer-4</button>
+            </div>
+            <!-- to show feedback -->
+            <p id="feedback"></p>
+            <button id="next-btn"> NEXT</button>
+        </div>
+
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
